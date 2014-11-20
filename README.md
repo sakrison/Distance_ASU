@@ -1,12 +1,13 @@
-Distance Based Point CLustering
+Distance Based Point ClLustering
 ============
 
 
 ##Mean nearest neighbor distance statistic
 First steps:
-  1. Find out how many points are in the input array
-  2. Calculate nearest neighbors 
+  1. Build distance matrix
+  2. Calculate nearest neighbors by finding MIN of each axis 
   3. Find average of nearest neighbors
-  4. Generate random points (same total number)
+  4. Generate random points matrix (same total number)
   5. Find average nearest neighbor distance
-  6. Compare averages 
+  6. Compare averages
+  7. Implement different distance functions

@@ -1,4 +1,4 @@
-Distance Based Point ClLustering
+Distance Based Point Clustering
 ============
 
 

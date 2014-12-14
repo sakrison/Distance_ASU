@@ -13,6 +13,8 @@ Our first step was to build a function that created a distance matrix. This func
 
 The G function analyzes the data a bit differently. Using the pair-wise nearest neighbor distances for each point from the distance matrix, the function plots the cumulative number of nearest neighbor pairs against distance length. The resulting shape of the graph give you insight into the distribution of nearest-neighbor distances. If the graph rises very quickly, it means there is a high number of short nearest-neighbor distances, indicating clustering. While we were able to create a function that runs the G function on user inputted data and plots the result, we have not been able to get code working that compares the G function results to a normal distribution.
 
+Examples of our functions can be seen in the above Dist2.ipynb.
+
 ##Conclusion
 
 We were limited as a team by a lack of understanding of the distance-based clustering test functions. None of us have a statistical or mathematical background, and we struggled to translate the equations into geocomputational python-based tools. We were also limited as beginning python and git-hub users. No one had written tools beyond simple brute force functions, and we lacked knowledge of optimization techniques. Most of the code was given to us by our collaborator Serge Rey.
